@@ -1,0 +1,118 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 48;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* p {
+    color: #E5E7EB;
+} */
+
+header, footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.spaces {
+    padding: 20px 70px; 
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+#headerimage {
+    width: 450px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+#headerlogo {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    border: solid;
+}
+
+#SUButton {
+    font-weight: bolder;
+    border-color: #1F2937;
+}
+
+#information {
+
+}
+
+#quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 50px 270px;
+}
+
+#Thor {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#callToAction {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 70%;
+    padding: 40px 20px;
+    margin: 20px 100px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#CTAText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#CTAButton {
+    border: solid;
+}
